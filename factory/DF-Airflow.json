@@ -1,0 +1,9 @@
+{
+	"name": "DF-Airflow",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fae7e498-6b4a-472b-92a5-baae7ed3fc15",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}

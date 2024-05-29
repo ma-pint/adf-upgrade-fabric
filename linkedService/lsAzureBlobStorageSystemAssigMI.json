@@ -1,0 +1,12 @@
+{
+	"name": "lsAzureBlobStorageSystemAssigMI",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://storage1airflow.blob.core.windows.net/",
+			"accountKind": "StorageV2"
+		}
+	}
+}

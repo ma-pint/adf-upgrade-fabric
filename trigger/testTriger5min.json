@@ -1,0 +1,24 @@
+{
+	"name": "testTriger5min",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copyFromBlobToBlob",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2023-03-25T10:51:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

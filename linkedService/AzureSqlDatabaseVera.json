@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlDatabaseVera",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=course-edx123.database.windows.net;initial catalog=edx-course;user id=vera",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNzk2MmExYy0yMDE5LTQ4ZGItOWU0Ny1iYWQxNWRkNjBjY2QiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "VeraLinked",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

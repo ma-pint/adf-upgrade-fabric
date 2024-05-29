@@ -1,0 +1,29 @@
+{
+	"name": "IRAirflow3",
+	"properties": {
+		"type": "Airflow",
+		"description": "every dag is in queue status\n",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"computeSize": "Small",
+				"extraNodes": 0,
+				"enableAutoscale": false
+			},
+			"airflowProperties": {
+				"airflowVersion": "2.4.3",
+				"airflowWebUrl": "https://158c4900791677.eastus.airflow.svc.datafactory.azure.com/login/",
+				"airflowRequirements": [
+					"pytest-watcher",
+					"trs"
+				],
+				"enableAADIntegration": true,
+				"enableTriggerers": false,
+				"airflowEntityReferences": [],
+				"packageProviderPath": "plugins",
+				"encryptedSecrets": [],
+				"secrets": []
+			}
+		}
+	}
+}

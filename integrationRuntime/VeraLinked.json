@@ -1,0 +1,12 @@
+{
+	"name": "VeraLinked",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/b5aa9df3-6786-4f1e-b2d4-7e7f5e58f83a/resourcegroups/edx_course/providers/Microsoft.DataFactory/factories/testv2edx/integrationruntimes/newSHIR",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
